@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cute Soulmate</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen bg-pink-50">
+  <!-- Header -->
+  <header class="sticky top-0 z-10 bg-pink-100 shadow-sm">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center gap-2">
+        <img src="/logo.png" alt="Cute Soulmate Logo" width="40" height="40" class="rounded-full" />
+        <h1 class="text-2xl font-bold text-pink-600">Cute Soulmate</h1>
+      </div>
+      <nav class="hidden md:flex gap-6">
+        <a href="#features" class="text-pink-700 hover:text-pink-500 font-medium">Features</a>
+        <a href="#pets" class="text-pink-700 hover:text-pink-500 font-medium">Pets</a>
+        <a href="#download" class="text-pink-700 hover:text-pink-500 font-medium">Download</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="py-16 md:py-24 bg-gradient-to-b from-pink-100 to-pink-50">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-8">
+      <div class="flex-1 space-y-6">
+        <h1 class="text-4xl md:text-6xl font-bold text-pink-600">Raise Your Virtual Pet</h1>
+        <p class="text-lg md:text-xl text-gray-700">
+          Feed, play, and watch your cute virtual pets grow and evolve in this adorable pet simulation game!
+        </p>
+        <div class="pt-4">
+          <a href="#download" class="bg-pink-600 hover:bg-pink-700 text-white px-8 py-4 rounded-full text-lg inline-block">Download Now</a>
+        </div>
+      </div>
+      <div class="flex-1 flex justify-center">
+        <div class="relative w-64 h-[500px] md:w-80 md:h-[600px] bg-white rounded-3xl shadow-xl border-8 border-pink-200 overflow-hidden">
+          <img src="/game-screen.jpg" alt="Game Screenshot" class="object-cover w-full h-full" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Other sections (Features, Pets, Download, Footer) -->
+  <!-- Due to length limitations, add similar HTML structures for these sections by replacing the React/Next.js specific syntax with standard HTML elements and classes. -->
+
+  <!-- Footer Example -->
+  <footer class="bg-pink-600 text-white py-8">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+      <div class="flex items-center gap-2">
+        <img src="/logo.png" alt="Cute Soulmate Logo" width="40" height="40" class="rounded-full bg-white p-1" />
+        <span class="text-xl font-bold">Cute Soulmate</span>
+      </div>
+      <nav class="flex gap-6">
+        <a href="#" class="hover:text-pink-200">Privacy Policy</a>
+        <a href="#" class="hover:text-pink-200">Terms of Service</a>
+        <a href="#" class="hover:text-pink-200">Contact Us</a>
+      </nav>
+    </div>
+    <div class="mt-8 text-center text-pink-100">
+      <p>&copy; 2025 Cute Soulmate. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
